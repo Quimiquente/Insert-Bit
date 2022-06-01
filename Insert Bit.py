@@ -26,8 +26,8 @@ def insert_bit(number):
         minority = "1"
     
     for i in range(diff):
-        index = random.randint(0, len(string) - 1)
-        new_string = new_string[:index] + minority + new_strin[index:]
+        index = random.randint(0, len(new_string) - 1)
+        new_string = new_string[:index] + minority + new_string[index:]
     
     print(f"1's Quantity: {str(one_count)}")
     print(f"0's Quantity: {str(zero_count)}")
