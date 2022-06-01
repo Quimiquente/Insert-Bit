@@ -1,7 +1,7 @@
 import random
 
-def insert_bit():
-    string = "011000001100000101010010101001"
+def insert_bit(number):
+    string = str(number)
     new_string = string
     one_count = 0
     zero_count = 0
